@@ -11,12 +11,7 @@
 
 using namespace std;
 
-bool start = false;
-bool ready = false;
 
-condition_variable syn_start;
-condition_variable frontier_ready;
-mutex mutex_visited_array;
 
 //#define v_num 8
 //#define e_num 10
